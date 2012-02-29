@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[My Awesome Blog]]></title><description><![CDATA[My awesome blog!]]></description><link>my.blog.local</link><generator>NodeJS RSS Module</generator><lastBuildDate>Wed, 29 Feb 2012 07:38:41 GMT</lastBuildDate><atom:link href="/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[<a href="/">My Awesome Blog</a>]]></title><description><![CDATA[<p>Dear diary,
+
+
+</p>
+]]></description><link>http://my.blog.local/checking-out-blacksmith</link><guid isPermaLink="true">http://my.blog.local/checking-out-blacksmith</guid><dc:creator><![CDATA[Andrew Kennedy]]></dc:creator><pubDate>Wed, 29 Feb 2012 07:38:03 GMT</pubDate></item><item><title><![CDATA[<a href="/">My Awesome Blog</a>]]></title><description><![CDATA[<p>This is an example first blog post! This is the part of the article which may
+be seen above the cutoff.
+
+</p>
+<h2>After the cutoff:</h2>
+<p>Blacksmith borrows the behavior from wheat of cutting the article off at the first &lt;h2&gt; element.
+</p>
+]]></description><link>http://my.blog.local/first-post</link><guid isPermaLink="true">http://my.blog.local/first-post</guid><dc:creator><![CDATA[Nodejitsu]]></dc:creator><pubDate>Sat, 19 Nov 2011 00:35:52 GMT</pubDate></item></channel></rss>

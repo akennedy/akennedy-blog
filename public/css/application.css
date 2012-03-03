@@ -14,7 +14,7 @@
                article form.comments { display: none; } }
 
 body {
-  background: #f7f7f7;
+  background: #f7f7f7 url(../../images/theme/background.gif) repeat-x left top;
   font: normal 12px "lucida grande", verdana, sans-serif;
 }
 

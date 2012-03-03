@@ -1,16 +1,16 @@
 ##### Get the package and run the installer
 
-Download [Sencha SDK](http://www.sencha.com/products/sdk-tools/)
+Download [Sencha SDK](http://www.sencha.com/products/sdk-tools/) and install it.
 
 You will most likely need to **close and reopen Terminal** before you will have access to the sencha command
 
 ##### Create you jsb3
 
-    sencha create jsb -a index.html -p myapp.jsb3
+    sencha create jsb -a index.html -p app.jsb3
 
 or for an external source
 
-    sencha create jsb -a http://domain.com/index.html -p myapp.jsb3
+    sencha create jsb -a http://domain.com/index.html -p app.jsb3
 
 The flags passed are:
 

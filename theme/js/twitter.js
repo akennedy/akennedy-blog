@@ -4,7 +4,7 @@ new TWTR.Widget({
   rpp: 4,
   interval: 30000,
   width: 'auto',
-  height: 215,
+  height: 250,
   theme: {
     shell: {
       background: '#f7f7f7',

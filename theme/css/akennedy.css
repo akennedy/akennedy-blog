@@ -1,0 +1,38 @@
+dd {
+  padding: 0;
+  margin: 0;
+}
+
+dt {
+  padding: 0;
+  margin: 0;
+}
+
+#sidebar .aside {
+  margin-bottom: 50px;
+}
+
+#sidebar .aside .headshot {
+  float: left;
+  margin-right: 5px;
+}
+
+#sidebar .author dl dt {
+  float: left;
+}
+
+#sidebar img:hover {
+  background: #fff;
+}
+
+.twtr-hd {
+  display: none;
+}
+
+.twtr-bd a:hover {
+  background: #fff;
+}
+
+.twtr-ft {
+  display: none;
+}

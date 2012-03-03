@@ -1,12 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[My Awesome Blog]]></title><description><![CDATA[My awesome blog!]]></description><link>my.blog.local</link><generator>NodeJS RSS Module</generator><lastBuildDate>Thu, 01 Mar 2012 04:47:13 GMT</lastBuildDate><atom:link href="/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[<a href="/">My Awesome Blog</a>]]></title><description><![CDATA[<p>if NaN really is a number; maybe NaN really is a ninja
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[something else]]></title><description><![CDATA[Andrew Kennedy Blog!]]></description><link>my.blog.local</link><generator>NodeJS RSS Module</generator><lastBuildDate>Sat, 03 Mar 2012 01:47:24 GMT</lastBuildDate><atom:link href="/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[<a href="./sencha-touch-jsbuilder3">Sencha Touch JSBuilder3</a>]]></title><description><![CDATA[<h5>Get the package and run the installer</h5>
+<p>Download <a href="http://www.sencha.com/products/sdk-tools/">Sencha SDK</a>
 
 </p>
-]]></description><link>http://my.blog.local/checking-out-blacksmith</link><guid isPermaLink="true">http://my.blog.local/checking-out-blacksmith</guid><dc:creator><![CDATA[Andrew Kennedy]]></dc:creator><pubDate>Wed, 29 Feb 2012 07:38:03 GMT</pubDate></item><item><title><![CDATA[<a href="/">My Awesome Blog</a>]]></title><description><![CDATA[<p>This is an example first blog post! This is the part of the article which may
-be seen above the cutoff.
+<p>You will most likely need to <strong>close and reopen Terminal</strong> before you will have access to the sencha command
 
 </p>
-<h2>After the cutoff:</h2>
-<p>Blacksmith borrows the behavior from wheat of cutting the article off at the first &lt;h2&gt; element.
+<h5>Create you jsb3</h5>
+<pre><code><span class="identifier">sencha</span> <span class="identifier">create</span> <span class="identifier">jsb</span> -<span class="identifier">a</span> <span class="identifier"><span class="keymethods">index</span></span>.<span class="identifier">html</span> -<span class="identifier">p</span> <span class="identifier">myapp</span>.<span class="identifier">jsb3</span></code></pre>
+<p>or for an external source
+
 </p>
-]]></description><link>http://my.blog.local/first-post</link><guid isPermaLink="true">http://my.blog.local/first-post</guid><dc:creator><![CDATA[Nodejitsu]]></dc:creator><pubDate>Sat, 19 Nov 2011 00:35:52 GMT</pubDate></item></channel></rss>
+<pre><code>sencha create jsb -a http:<span class="comment">//d</span>omain.com/index.html -p myapp.jsb3</code></pre>
+<p>The flags passed are:
+
+</p>
+<ul>
+<li>-<strong>a</strong> (required) The location of the HTML file containing the scripts you want to include</li>
+<li>-<strong>p</strong> (required) The location where the output .jsb3 file should be created (relative to your current terminal path)</li>
+</ul>
+<h5>Your .jsb3</h5>
+<p>The jsb3 file generated should look something like this:
+
+</p>
+<pre><code>{
+    <span class="string">"projectName"</span>: <span class="string">"aKennedy Project"</span>,
+    <span class="string">"licenseText"</span>: <span class="string">"Copyright(c) 2012 aKennedy"</span>,
+    <span class="string">"builds"</span>: [
+        {
+            <span class="string">"name"</span>: <span class="string">"All Classes"</span>,
+            <span class="string">"target"</span>: <span class="string">"all-classes.js"</span>,
+            <span class="string">"compress"</span>: <span class="literal">true</span>,
+            <span class="string">"files"</span>: [
+                {
+                    <span class="string">"path"</span>: <span class="string">"js/"</span>,
+                    <span class="string">"name"</span>: <span class="string">"FooBar.js"</span>
+                }
+                <span class="comment">// </span>...
+            ]
+        }
+    ],
+    <span class="string">"resources"</span> : []
+}</code></pre>
+<p>If you need to make modifications or you are manually creating your jsb3 file, just make sure to include all your files and that they are in the correct order.
+
+</p>
+<h5>Build all-classes.js</h5>
+<p>Combining and Minifying your files from your jsb3 is a cinch
+
+</p>
+<pre><code>sencha build -p app.jsb3 -d . -v</code></pre>
+<p>The flags passed are:
+
+</p>
+<ul>
+<li>-<strong>p</strong> (required) The location of the .jsb3 file you want to build</li>
+<li>-<strong>d</strong> (required) The location where you want the output files to be created (relative to your current terminal path)</li>
+<li>-<strong>v</strong> (optional) For verbose output in your terminal</li>
+</ul>
+<h3>And that is it!</h3>
+]]></description><link>http://my.blog.local/sencha-touch-jsbuilder3</link><guid isPermaLink="true">http://my.blog.local/sencha-touch-jsbuilder3</guid><dc:creator><![CDATA[aKennedy]]></dc:creator><pubDate>Sat, 03 Mar 2012 00:26:44 GMT</pubDate></item><item><title><![CDATA[<a href="./blacksmith-blogging">Blacksmith Blogging</a>]]></title><description><![CDATA[<h5>I think I could get used to this Blacksmith blogging</h5>
+<p>Thanks to <a href="http://krwindham.jit.su">krwindham.jit.su</a> for turning me on to blacksmith, although, you probably didn't even know you did.
+
+</p>
+<p>Sorry I stole some of your layout ideas like the twitter feed and coderwall feed.
+
+
+</p>
+]]></description><link>http://my.blog.local/blacksmith-blogging</link><guid isPermaLink="true">http://my.blog.local/blacksmith-blogging</guid><dc:creator><![CDATA[aKennedy]]></dc:creator><pubDate>Sat, 03 Mar 2012 00:15:44 GMT</pubDate></item></channel></rss>

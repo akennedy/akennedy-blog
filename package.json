@@ -1,8 +1,8 @@
 {
   "author": "Andrew Kennedy <andrew@jackhq.com>",
   "name": "akennedy",
-  "description": "Given Blacksmith a run",
-  "version": "0.0.3",
+  "description": "aKennedy Blog",
+  "version": "0.0.3-4",
   "homepage": "https://akennedy.nodejitsu.com",
   "repository": {
     "type": "git",

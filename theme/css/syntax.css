@@ -36,8 +36,8 @@
 #content .typocode_xml  .string    { color: #c03; }
 #content .typocode_xml  .number    { color: #ff0; }
 #content .typocode_xml  .attribute { color: #bb7; }
-                                             
-#content .typocode_yaml .normal    {}        
+
+#content .typocode_yaml .normal    {}
 #content .typocode_yaml .document  { color: #07f; font-weight: bold; }
 #content .typocode_yaml .type      { color: #c60; font-weight: bold; }
 #content .typocode_yaml .key       { color: #c60; }

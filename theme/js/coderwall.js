@@ -25,6 +25,7 @@ $(document).ready(function(){
       .appendTo(".coderwall-feed")
       .hover(
         function(){
+          $(this).css("cursor","pointer");
           $(this).css("opacity","0.6");
         },
         function(){
